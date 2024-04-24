@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+//SHABANG
 
 
 import inquirer from "inquirer";
@@ -16,7 +17,7 @@ let answers = await inquirer.prompt([
   },
 ]);
 
-// conditional statments if-Else
+// conditional statments if-Else 
 
 if (answers.operator === "Addition") {
   console.log(answers.firstNumber + answers.secondNumber);
